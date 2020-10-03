@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&family=Marck+Script&family=Monoton&family=Vast+Shadow&display=swap');
+
+
+#navbar-brand {
+    color: seashell;
+    font-family: 'Vast Shadow', cursive;
+    font-size: larger;
+
+}
+
+.navbar {
+    background-color: seagreen !important;
+}
+
+.nav-link {
+    color: seashell !important;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: large;
+}
+
+
+.nav-link::after {
+    
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(179, 231, 136);
+    transition: width .5s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.nav-link:hover { 
+    color: rgb(179, 231, 136) !important;
+   
+}
+.active {
+    color: rgb(179, 231, 136) !important;
+}
+
+
+.bg-cover {
+    background-attachment: static;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fontsansita {
+    font-family: 'Marck Script', cursive;
+}
+
+.footer-copyright {
+    background-color: seagreen !important;
+}
+
+.gallerie {
+    background-color: rgba(157, 238, 196, 0.418);
+}
