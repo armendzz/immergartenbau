@@ -9,7 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/default-skin/default-skin.css">    <link href={{ asset("/css/style.css") }} rel="stylesheet" />
-       <title>ImmerGartenBau.Com</title>
+       <title>EddiGartenBau.De</title>
 
 </head>
 
@@ -18,7 +18,7 @@
     <div class="container mt-2">
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" id="navbar-brand" href="#">ImmerGartenBau.Com</a>
+                <a class="navbar-brand" id="navbar-brand" href="#">EddiGartenBau.De</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -56,7 +56,7 @@
         <p class="lead">Unser Team bringt Ihr privates und öffentliches Grün in Topform. Mit außergewöhnlichen Gestaltungsideen, professioneller Planung und liebevoller Ausführung bekommen Sie bei uns alles rund um Natur und Garten.</p>
         <hr class="my-4">
         <p>Jetzt kostenfreien Beratungstermin vereinbaren.</p>
-        <a class="btn btn-success btn-lg" href="tel:017636616027" role="button"><i class="material-icons">phone_in_talk</i> <span style="font-size: 20px">017636616027</span></a>
+        <a class="btn btn-success btn-lg" href="tel:017664364915" role="button"><i class="material-icons">phone_in_talk</i> <span style="font-size: 20px">0176 64364915</span></a>
           </div>
       </div>
     @yield('content')
@@ -139,7 +139,7 @@
   
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="https://immergartenbau.com/">ImmerGartenBau.com</a>
+      <a href="http://eddigartenbau.de/">EddiGartenBau.De</a>
     </div>
     <!-- Copyright -->
   

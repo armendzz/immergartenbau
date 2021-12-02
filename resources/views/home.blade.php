@@ -4,7 +4,7 @@
     
 
 
-<h1 class="text-center fontsansita">Ihr Garten und Landschaftsbau in NRW</h1>
+<h1 class="text-center fontsansita">Ihr Garten und Landschaftsbau in STUTTGART</h1>
 <div class="card-group">
     <div class="card">
       <img class="mr-1 ml-1 mt-1" height="200px" src="https://images.squarespace-cdn.com/content/v1/56d252832b8dde6611c90bac/1458541068052-H0UJ8GEH03LIB3358FYB/ke17ZwdGBToddI8pDm48kLxnK526YWAH1qleWz-y7AFZw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVFUQAah1E2d0qOFNma4CJuw0VgyloEfPuSsyFRoaaKT76QvevUbj177dmcMs1F0H-0/image-asset.png" class="card-img-top" alt="...">
@@ -35,103 +35,48 @@
   <div class="row mt-3 mb-3">
       <div class="col-6"><img src="https://www.dlf.pt/png/big/23/234508_garden-png.png" width="100%" alt=""></div>
       <div class="col-6">
-          <h1>UNSERE PHILOSOPHIE</h1>
+          <h2>UNSERE PHILOSOPHIE</h2>
           <h5>Wir möchten, dass Sie sich in Ihrem Garten wohlfühlen!</h5>
-          <p>Zufriedene Kunden - das ist unser höchstes Ziel. Wir führen unser Geschäft nach alten traditionsreichen Tugenden und christlichen Werten und das sind unsere Geschäftsprinzipien: Offene und ehrliche Beratung, fachlich kompetente Arbeitsweise, faire Kalkulation, zuverlässige Terminabsprachen und transparente, offizielle Abrechnungen. Vielleicht sehen wir uns schon bald in Ihrem Garten zu einem persönlichen Beratungsgespräch.</p>
+          <p>Zufriedene Kunden - das ist unser höchstes Ziel. Wir führen unser Geschäft nach alten traditionsreichen Werten und das sind unsere Geschäftsprinzipien: Offene und ehrliche Beratung, fachlich kompetente Arbeitsweise, faire Kalkulation, zuverlässige Terminabsprachen und transparente offizielle Abrechnungen. Vielleicht sehen wir uns schon bald in Ihrem Garten zu einem persönlichen Beratungsgespräch.</p>
       </div>
   </div>
 </div>
+asd
+
+
+<div class="container">
+
+
 <div class="gallerie mt-3 mb-3" id="galleriee">
-    <div class="container">
-        <h1 class="text-center">Projekt Galerie</h1>
-        <p class="text-center">Unsere Erfahrung mit hochwertigen Materialien im Gartenbau konnten wir bereits mehrfach unter Beweis stellen.</p>
-        <p class="text-center">Hier finden Sie einen Auszug unserer Projekte.</p>
-        <div class="col-sm-offset-2">    
-            <!-- Galley wrapper that contains all items -->
-            <div id="gallery" class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    
+          <div id="gallery" class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+     
            <div class="row">
                
-            <div class="col-3">
+          
+
+              @foreach ($images as $image)
+              <div class="col-md-4 col-sm-6">
                 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <!-- Link to the big image, not mandatory, but usefull when there is no JS -->
-                  <a href="https://gartenbau-kabashi.de/wp-content/uploads/2020/08/5.jpg" data-caption="Sea side, south shore<br><em class='text-muted'>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
-                    <!-- Thumbnail -->
-                    <img src="https://gartenbau-kabashi.de/wp-content/uploads/2020/08/5.jpg" class="foto"  width="100%" itemprop="thumbnail" alt="Image description">
+                  <a href="http://eddigartenbau.de/img/{{ $image }}" data-width="1200" data-height="900" itemprop="contentUrl">
+                     <img src="http://eddigartenbau.de/img/{{ $image }}" class="foto" height="300px"  width="100%" itemprop="thumbnail" alt="Image description">
                   </a>
                 </figure>
               </div>
-              <div class="col-3">
-                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <!-- Link to the big image, not mandatory, but usefull when there is no JS -->
-                  <a href="https://gartenbau-kabashi.de/wp-content/uploads/2020/08/6.jpg" data-caption="Sea side, south shore<br><em class='text-muted'>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
-                    <!-- Thumbnail -->
-                    <img src="https://gartenbau-kabashi.de/wp-content/uploads/2020/08/6.jpg" class="foto"  width="100%" itemprop="thumbnail" alt="Image description">
-                  </a>
-                </figure>
-              </div>
-              <div class="col-3">
-                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <!-- Link to the big image, not mandatory, but usefull when there is no JS -->
-                  <a href="https://gartenbau-kabashi.de/wp-content/uploads/2020/08/7.jpg" data-caption="Sea side, south shore<br><em class='text-muted'>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
-                    <!-- Thumbnail -->
-                    <img src="https://gartenbau-kabashi.de/wp-content/uploads/2020/08/7.jpg" class="foto"  width="100%" itemprop="thumbnail" alt="Image description">
-                  </a>
-                </figure>
-              </div>
-              <div class="col-3">
-                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <!-- Link to the big image, not mandatory, but usefull when there is no JS -->
-                  <a href="https://gartenbau-kabashi.de/wp-content/uploads/2020/08/8.jpg" data-caption="Sea side, south shore<br><em class='text-muted'>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
-                    <!-- Thumbnail -->
-                    <img src="https://gartenbau-kabashi.de/wp-content/uploads/2020/08/8.jpg" class="foto"  width="100%" itemprop="thumbnail" alt="Image description">
-                  </a>
-                </figure>
-              </div>
-              <div class="col-3">
-                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <!-- Link to the big image, not mandatory, but usefull when there is no JS -->
-                  <a href="https://gartenbau-kabashi.de/wp-content/uploads/2020/08/4.jpg" data-caption="Sea side, south shore<br><em class='text-muted'>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
-                    <!-- Thumbnail -->
-                    <img src="https://gartenbau-kabashi.de/wp-content/uploads/2020/08/4.jpg"class="foto"   width="100%" itemprop="thumbnail" alt="Image description">
-                  </a>
-                </figure>
-              </div>
-              <div class="col-3">
-                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <!-- Link to the big image, not mandatory, but usefull when there is no JS -->
-                  <a href="https://gartenbau-kabashi.de/wp-content/uploads/2020/08/3.jpg" data-caption="Sea side, south shore<br><em class='text-muted'>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
-                    <!-- Thumbnail -->
-                    <img src="https://gartenbau-kabashi.de/wp-content/uploads/2020/08/3.jpg" class="foto"  width="100%" itemprop="thumbnail" alt="Image description">
-                  </a>
-                </figure>
-              </div>
-              <div class="col-3">
-                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <!-- Link to the big image, not mandatory, but usefull when there is no JS -->
-                  <a href="https://gartenbau-kabashi.de/wp-content/uploads/2020/08/1.jpg" data-caption="Sea side, south shore<br><em class='text-muted'>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
-                    <!-- Thumbnail -->
-                    <img src="https://gartenbau-kabashi.de/wp-content/uploads/2020/08/1.jpg" class="foto"  width="100%" itemprop="thumbnail" alt="Image description">
-                  </a>
-                </figure>
-              </div>
-              <div class="col-3">
-                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <!-- Link to the big image, not mandatory, but usefull when there is no JS -->
-                  <a href="https://gartenbau-kabashi.de/wp-content/uploads/2020/08/2.jpg" data-caption="Sea side, south shore<br><em class='text-muted'>© Dominik Schröder</em>" data-width="1200" data-height="900" itemprop="contentUrl">
-                    <!-- Thumbnail -->
-                    <img src="https://gartenbau-kabashi.de/wp-content/uploads/2020/08/2.jpg" class="foto"  width="100%" itemprop="thumbnail" alt="Image description">
-                  </a>
-                </figure>
-              </div>
+          @endforeach
+
+            
+           
+              
+            
           
             </div>
-            <div class="mb-2 d-flex justify-content-center"><p class="btn btn-success">Alle Galerie</p></div>
-
+           <!--  <div class="mb-2 d-flex justify-content-center"><p class="btn btn-success">Alle Galerie</p></div> -->
+ 
             
         </div>
           </div>
     </div>
+</div>
 </div>
 <div class="container">
   <div class="card mt-2 mb-2">
